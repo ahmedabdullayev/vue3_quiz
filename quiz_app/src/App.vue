@@ -6,9 +6,17 @@
 </template>
 
 <script lang="ts">
-console.log("initial")
-</script>
+import {defineComponent} from "vue";
+export default defineComponent({
+  // components: {categories},
+  data() {
+    return {
+    };
+  },
 
+
+})
+</script>
 
 <style>
 
